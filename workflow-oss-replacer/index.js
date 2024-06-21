@@ -3,7 +3,7 @@ import alfy from 'alfy'
 
 let content = clipboardy.readSync();
 if (content.startsWith('oss://img-supermonkey/')) {
-  let newContent = content.replace('oss://img-supermonkey/', 'https://img.supermonkey.com.cn/webapp');
+  let newContent = content.replace('oss://img-supermonkey/', 'https://img.supermonkey.com.cn/');
   alfy.output([
     {
       title: newContent,
